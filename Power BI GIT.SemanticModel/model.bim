@@ -13354,11 +13354,11 @@
             "source": {
               "expression": [
                 "let",
-                "    Source = Table.FromRows(Json.Document(Binary.Decompress(Binary.FromText(\"TYw5CsMwEEWvIqY2w4xI4wP4BAm4ECpE8r2ArUKakOt7QpqU7y8vJRIeaSBRVuEo+oWpdcNxoNVyogbs1VpZUb2aSw+fd3shrDjLc7O/Ng+JlMVXGlnVbfHmcDcsi2tm7K704IFuYfrdKOcL\", BinaryEncoding.Base64), Compression.Deflate)), let _t = ((type nullable text) meta [Serialized.Text = true]) in type table [Version = _t, Date = _t, #\"Made by\" = _t, Update = _t]),",
+                "    Source = Table.FromRows(Json.Document(Binary.Decompress(Binary.FromText(\"hYw5CsMwEEWvIlSbYUZJkwP4BA64EC6E872ArUKakOtnTAJxl/Iv78XomW6+8SwkTIHlCG2pim1DyWlHdlizljQj29Sn6l7P8oCbsadx0dM6NNELsb0kkIjZwtVCp5gm0/RYTWnFHVVd+8G+kBzQ5S8UftjwBg==\", BinaryEncoding.Base64), Compression.Deflate)), let _t = ((type nullable text) meta [Serialized.Text = true]) in type table [Version = _t, Date = _t, #\"Made by\" = _t, Update = _t]),",
                 "    #\"Changed Type with Locale\" = Table.TransformColumnTypes(Source, {{\"Version\", type text}}, \"en-US\"),",
-                "    #\"Changed Type\" = Table.TransformColumnTypes(#\"Changed Type with Locale\",{{\"Date\", type date}})",
+                "    #\"Changed Type with Locale1\" = Table.TransformColumnTypes(#\"Changed Type with Locale\", {{\"Date\", type date}}, \"de-DE\")",
                 "in",
-                "    #\"Changed Type\""
+                "    #\"Changed Type with Locale1\""
               ],
               "type": "m"
             }
