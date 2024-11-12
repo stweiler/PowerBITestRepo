@@ -11570,7 +11570,7 @@
         "annotations": [
           {
             "name": "PBI_ResultType",
-            "value": "Exception"
+            "value": "Text"
           },
           {
             "name": "PBI_NavigationStepName",
@@ -11587,7 +11587,7 @@
         "annotations": [
           {
             "name": "PBI_ResultType",
-            "value": "Exception"
+            "value": "Text"
           },
           {
             "name": "PBI_NavigationStepName",
@@ -11604,7 +11604,7 @@
         "annotations": [
           {
             "name": "PBI_ResultType",
-            "value": "Exception"
+            "value": "Number"
           }
         ],
         "description": "Falls das Fiskaljahr von Januar abweicht, gib hier den Startmonat deines Fiskaljahres als Zahl ein (Bspw. Juni = 6)",
@@ -13354,7 +13354,7 @@
             "source": {
               "expression": [
                 "let",
-                "    Source = Table.FromRows(Json.Document(Binary.Decompress(Binary.FromText(\"hYw5CsMwEEWvIlSbYUZJkwP4BA64EC6E872ArUKakOtnTAJxl/Iv78XomW6+8SwkTIHlCG2pim1DyWlHdlizljQj29Sn6l7P8oCbsadx0dM6NNELsb0kkIjZwtVCp5gm0/RYTWnFHVVd+8G+kBzQ5S8UftjwBg==\", BinaryEncoding.Base64), Compression.Deflate)), let _t = ((type nullable text) meta [Serialized.Text = true]) in type table [Version = _t, Date = _t, #\"Made by\" = _t, Update = _t]),",
+                "    Source = Table.FromRows(Json.Document(Binary.Decompress(Binary.FromText(\"hcwxCsMwDAXQqxjPQUhKlh4gJ2ghg8lgGiUNJB5slV6/Mi00dMn49fV+CB7h4huPBITASDX0uahsm+QUd0lO1qQ5LpKsGmJxr2eexC2yx/tDD+3YBE+A9kUMRLbGnYWryjzbzCCrTdrhJkVd/2FfRBW1p4j/GFfWnbL2x8Y3\", BinaryEncoding.Base64), Compression.Deflate)), let _t = ((type nullable text) meta [Serialized.Text = true]) in type table [Version = _t, Date = _t, #\"Made by\" = _t, Update = _t]),",
                 "    #\"Changed Type with Locale\" = Table.TransformColumnTypes(Source, {{\"Version\", type text}}, \"en-US\"),",
                 "    #\"Changed Type with Locale1\" = Table.TransformColumnTypes(#\"Changed Type with Locale\", {{\"Date\", type date}}, \"de-DE\")",
                 "in",
