@@ -11570,7 +11570,7 @@
         "annotations": [
           {
             "name": "PBI_ResultType",
-            "value": "Text"
+            "value": "Exception"
           },
           {
             "name": "PBI_NavigationStepName",
@@ -11587,7 +11587,7 @@
         "annotations": [
           {
             "name": "PBI_ResultType",
-            "value": "Text"
+            "value": "Exception"
           },
           {
             "name": "PBI_NavigationStepName",
@@ -11604,7 +11604,7 @@
         "annotations": [
           {
             "name": "PBI_ResultType",
-            "value": "Number"
+            "value": "Exception"
           }
         ],
         "description": "Falls das Fiskaljahr von Januar abweicht, gib hier den Startmonat deines Fiskaljahres als Zahl ein (Bspw. Juni = 6)",
@@ -13250,6 +13250,10 @@
           {
             "name": "PBI_ResultType",
             "value": "Table"
+          },
+          {
+            "name": "PBI_NavigationStepName",
+            "value": "Navigation"
           }
         ],
         "changedProperties": [
@@ -13350,7 +13354,7 @@
             "source": {
               "expression": [
                 "let",
-                "    Source = Table.FromRows(Json.Document(Binary.Decompress(Binary.FromText(\"i45WMtCzVNJRMjDUMzTQMzIwBHFci4pLUnNyUovyEnNT8xRSM/NKihLTU/OAUuGJxQrlpUUpqQrpqbmJyRklSLKxsQA=\", BinaryEncoding.Base64), Compression.Deflate)), let _t = ((type text) meta [Serialized.Text = true]) in type table [Version = _t, Date = _t, #\"Made by\" = _t, Update = _t]),",
+                "    Source = Table.FromRows(Json.Document(Binary.Decompress(Binary.FromText(\"TYw5CsMwEEWvIqY2w4xI4wP4BAm4ECpE8r2ArUKakOt7QpqU7y8vJRIeaSBRVuEo+oWpdcNxoNVyogbs1VpZUb2aSw+fd3shrDjLc7O/Ng+JlMVXGlnVbfHmcDcsi2tm7K704IFuYfrdKOcL\", BinaryEncoding.Base64), Compression.Deflate)), let _t = ((type nullable text) meta [Serialized.Text = true]) in type table [Version = _t, Date = _t, #\"Made by\" = _t, Update = _t]),",
                 "    #\"Changed Type with Locale\" = Table.TransformColumnTypes(Source, {{\"Version\", type text}}, \"en-US\"),",
                 "    #\"Changed Type\" = Table.TransformColumnTypes(#\"Changed Type with Locale\",{{\"Date\", type date}})",
                 "in",
