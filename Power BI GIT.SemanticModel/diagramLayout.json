@@ -1,0 +1,97 @@
+{
+  "version": "1.1.0",
+  "diagrams": [
+    {
+      "ordinal": 0,
+      "scrollPosition": {
+        "x": 920.40816326530614,
+        "y": 0
+      },
+      "nodes": [
+        {
+          "location": {
+            "x": 1785.16264464729,
+            "y": 862.72289613343446
+          },
+          "nodeIndex": "Dates",
+          "nodeLineageTag": "b6323a9f-1d7d-4ed0-8bf0-1318ab0539b1",
+          "size": {
+            "height": 187,
+            "width": 254
+          },
+          "zIndex": 0
+        },
+        {
+          "location": {
+            "x": 1179.1190528383293,
+            "y": 321.40000000000003
+          },
+          "nodeIndex": "Language",
+          "size": {
+            "height": 187,
+            "width": 254
+          },
+          "zIndex": 0
+        },
+        {
+          "location": {
+            "x": 0,
+            "y": 0
+          },
+          "nodeIndex": "Z_lastRefresh",
+          "size": {
+            "height": 187,
+            "width": 254
+          },
+          "zIndex": 0
+        },
+        {
+          "location": {
+            "x": 2785.7266057930356,
+            "y": 256.214759737303
+          },
+          "nodeIndex": "Measures GENERAL",
+          "size": {
+            "height": 187,
+            "width": 254
+          },
+          "zIndex": 0
+        },
+        {
+          "location": {
+            "x": 3089.7266057930356,
+            "y": 436.86144806671723
+          },
+          "nodeIndex": "Changelog",
+          "nodeLineageTag": "8ed1138f-2f15-4655-bb92-bae5738c9247",
+          "size": {
+            "height": 176,
+            "width": 234
+          },
+          "zIndex": 0
+        },
+        {
+          "location": {
+            "x": 3373.7266057930356,
+            "y": 472.86144806671723
+          },
+          "nodeIndex": "Berichtsstatus",
+          "nodeLineageTag": "5ca1af20-0603-496e-bc09-b6dc0392588b",
+          "size": {
+            "height": 104,
+            "width": 234
+          },
+          "zIndex": 0
+        }
+      ],
+      "name": "All tables",
+      "zoomValue": 49,
+      "pinKeyFieldsToTop": false,
+      "showExtraHeaderInfo": false,
+      "hideKeyFieldsWhenCollapsed": false,
+      "tablesLocked": false
+    }
+  ],
+  "selectedDiagram": "All tables",
+  "defaultDiagram": "All tables"
+}
